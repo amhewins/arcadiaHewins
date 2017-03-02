@@ -1,0 +1,182 @@
+body {
+  margin: 0px;
+}
+.hero {
+  background-image: url('../images/DSC_0436.png');
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.hero .overlay {
+  position: absolute;
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+  color: #fff;
+  padding-left: 5px;
+}
+.hero .overlay p {
+  text-align: left;
+  font-size: 400%;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 120px;
+  padding-left: 80px;
+  letter-spacing: 4px;
+}
+.web a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.web p {
+  color: white;
+  font-size: 300%;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+}
+.web img {
+  position: relative;
+}
+li {
+  list-style-type: none;
+}
+nav {
+  padding-left: 90px;
+  margin-top: -60px;
+  font-family: 'Raleway', sans-serif;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+}
+nav a:hover {
+  color: #00ffff;
+}
+nav ul li {
+  display: inline-block;
+}
+#header {
+  display: none;
+}
+.content {
+  padding-top: 10px;
+  padding-left: 10%;
+  font-family: 'Raleway', sans-serif;
+}
+#greggs {
+  float: left;
+  object-fit: cover;
+}
+#gregg {
+  object-fit: cover;
+}
+#greggs .text {
+  position:relative;
+  bottom: 300px;
+  left:50px;
+  visibility:hidden;
+  font-size: 250%;
+}
+#greggs:hover .text {
+  visibility:visible;
+}
+#goodearth {
+  float: left;
+  object-fit: cover;
+}
+#goodearth .text {
+  position:relative;
+  bottom:300px;
+  left:140px;
+  visibility:hidden;
+}
+#goodearth:hover .text {
+  visibility:visible;
+}
+#philau {
+  clear: left;
+  float: left;
+  object-fit: cover;
+  margin-top: -9%;
+}
+#philau .text {
+  position:relative;
+  bottom:190px;
+  left:100px;
+  visibility:hidden;
+}
+#philau:hover .text {
+  visibility:visible;
+}
+#stuckinlove {
+  float: left;
+  object-fit: cover;
+  margin-top: -9%;
+}
+#stuckinlove .text {
+  position:relative;
+  bottom:190px;
+  left:120px;
+  visibility:hidden;
+}
+#stuckinlove:hover .text {
+  visibility:visible;
+}
+#all {
+  clear: left;
+  float: left;
+}
+#all a {
+  color: black;
+}
+#graphics {
+  clear: left;
+}
+/* Original with centered
+.work h2 {
+  text-align: center;
+  font-size: 200%;
+}
+.work p {
+  text-align: center;
+}
+.work img {
+
+}
+#gregg {
+  padding-left: 25%;
+}
+.left {
+  padding-left: 28%;
+}
+.photos img {
+  margin-right: 5px;
+  margin-top: 5px;
+} */
+footer {
+  background: #131820;
+  padding-left: 30%;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  clear: left;
+}
+footer li {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+}
+footer a:hover {
+  color: #00ffff;
+}
+.social {
+  padding-left: 15%;
+}
+.social a:hover {
+  opacity: 0.3;
+}

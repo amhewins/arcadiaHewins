@@ -1,0 +1,146 @@
+@media only screen and (max-width: 3000px) {
+  #pictures {
+    float: left;
+    margin-left: 10%;
+  }
+}
+@media only screen and (max-width: 2028px) {
+  #pictures {
+    float: left;
+    margin-left: 10%;
+  }
+  #camera {
+    float: left;
+  }
+  #acadia {
+    clear: left;
+    float: left;
+    object-fit: cover;
+  }
+  #glasses {
+    clear: left;
+    float: left;
+    object-fit: cover;
+  }
+  #umbrella {
+    clear: left;
+    float: left;
+    object-fit: cover;
+  }
+  #flower {
+    clear: left;
+    float: left;
+    object-fit: cover;
+  }
+  #easter {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  #pictures {
+    float: left;
+    margin-left: 10%;
+  }
+  #camera {
+    float: left;
+  }
+  #acadia {
+    clear: left;
+    float: left;
+    object-fit: cover;
+  }
+  #glasses {
+    clear: left;
+    float: left;
+    object-fit: cover;
+  }
+  #umbrella {
+    clear: left;
+    float: left;
+    object-fit: cover;
+  }
+  #flower {
+    clear: left;
+    float: left;
+    object-fit: cover;
+  }
+  #easter {
+    display: none;
+  }
+} /* 1500 */
+
+@media only screen and (max-width: 1200px) {
+  #pictures {
+    margin-left: 5%;
+    clear: left;
+  }
+  #acadia {
+    float: none;
+  }
+  #glasses {
+    float: none;
+  }
+  #flower {
+    float: none;
+  }
+  #umbrella {
+    float: none;
+  }
+  #easter {
+    display: inline;
+    float: none;
+  }
+} /*1200*/
+
+@media only screen and (max-width: 1024px) {
+
+} /* 1024 */
+
+@media only screen and (max-width: 940px) {
+
+} /* 940 */
+
+@media only screen and (max-width: 768px) {
+
+} /* 768 */
+
+@media only screen and (max-width: 500px) {
+
+} /* 500 */
+
+@media only screen and (max-width: 415px) {
+
+} /* 415 */
+
+@media only screen and (max-width: 375px) {
+  #pictures {
+    margin-left: 0px;
+  }
+  #flower {
+    object-fit: cover;
+  }
+} /* 375 */
+
+@media only screen and (max-width: 360px) {
+  #pictures {
+    margin: -30px;
+  }
+  #camera {
+  }
+  #acadia {
+    object-fit: cover;
+  }
+  #glasses {
+    object-fit: cover;
+  }
+  #umbrella {
+    object-fit: cover;
+  }
+  #flower {
+    object-fit: cover;
+  }
+} /* 360 */
+
+@media only screen and (max-width: 325px) {
+
+} /* 325 */

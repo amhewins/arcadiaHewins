@@ -1,0 +1,626 @@
+@media only screen and (max-width: 2400px) {
+  #name2 p {
+    margin-top: 25%;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  #name2 p {
+    margin-top: 28%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  #name p {
+    margin-left: 20%;
+  }
+  #name2 p {
+    margin-top: 28%;
+    margin-left: 20%;
+  }
+} /*1500*/
+
+@media only screen and (max-width: 1024px) {
+  #name p {
+    margin-left: 24%;
+    margin-top: 20%;
+    font-size: 440%;
+    letter-spacing: 5px;
+  }
+  #name2 p {
+    margin-left: 24%;
+    margin-top: 28%;
+    font-size: 440%;
+    letter-spacing: 5px;
+  }
+  #header {
+    display: none;
+  }
+
+  #web h1 {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 16%;
+    color: white;
+    font-size: 300%;
+  }
+  #web img {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 50%;
+    opacity: 1;
+    object-fit: cover;
+  }
+  #graphics h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    margin-left: 63%;
+    margin-top: 15%;
+    font-size: 350%;
+  }
+  #graphics img {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 50%;
+    opacity: 1;
+    object-fit: cover;
+  }
+  .peopleweb {
+    display: none;
+  }
+  #story h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 55%;
+    font-size: 350%;
+  }
+  #story img {
+    position: relative;
+    clear: left;
+    float: left;
+    width: 50%;
+    height: 50%;
+    opacity: 1;
+    object-fit: cover;
+  }
+  #contact h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 55%;
+    font-size: 350%;
+  }
+  #contact img {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 50%;
+    opacity: 1;
+    object-fit: cover;
+  }
+} /*1024*/
+
+@media only screen and (max-width: 770px) {
+  #name, #name2 p {
+    display: none;
+  }
+  #header {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #6de7f9;
+    margin-top: 1px;
+  }
+  body {
+    background-color: #4a4a4a;
+  }
+  #header h1 {
+    background-color: #4a4a4a;
+  }
+  #quad {
+    width: 100%;
+  }
+  #web {
+    clear: left;
+    margin-top: -1.5%;
+  }
+  #web h1 {
+    margin-left: 22%;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 330%;
+  }
+  #web img {
+    width: 100%;
+    height: 23%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  #graphics {
+    clear: left;
+  }
+  #graphics h1 {
+    margin-left: 28%;
+    margin-top: 12%;
+    text-align: center;
+    font-size: 380%;
+  }
+  #graphics img {
+    width: 100%;
+    height: 24%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  #story {
+    clear: left;
+  }
+  #story h1 {
+    margin-top: 10%;
+    margin-left: 32%;
+    text-align: center;
+    font-size: 380%;
+  }
+  #story img {
+    width: 100%;
+    height: 23%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  .bingo {
+    display: none;
+  }
+  .peopleweb {
+    display:block;
+  }
+  #contact {
+    clear: left;
+  }
+  #contact h1 {
+    margin-top: 12%;
+    margin-left: 28%;
+    text-align: center;
+    font-size: 380%;
+  }
+  #contact img {
+    width: 100%;
+    height: 23%;
+    object-fit: cover;
+    opacity: 1;
+  }
+} /*770*/
+
+@media only screen and (max-width: 500px) {
+  #name, #name2 p {
+    display: none;
+  }
+  #header {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #6de7f9;
+    margin-top: 1px;
+  }
+  body {
+    background-color: #4a4a4a;
+  }
+  #header h1 {
+    background-color: #4a4a4a;
+  }
+  #quad {
+    width: 100%;
+  }
+  #web {
+    clear: left;
+    margin-top: -1.5%;
+  }
+  #web h1 {
+    margin-left: 18%;
+    margin-top: 13%;
+    text-align: center;
+    font-size: 230%;
+  }
+  #web img {
+    width: 100%;
+    height: 23%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  #graphics {
+    clear: left;
+  }
+  #graphics h1 {
+    margin-left: 25%;
+    margin-top: 15%;
+    text-align: center;
+    font-size: 280%;
+  }
+  #graphics img {
+    width: 100%;
+    height: 23%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  #story {
+    clear: left;
+  }
+  #story h1 {
+    margin-top: 12%;
+    margin-left: 30%;
+    text-align: center;
+    font-size: 280%;
+  }
+  #story img {
+    width: 100%;
+    height: 23%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  .bingo {
+    display: none;
+  }
+  .peopleweb {
+    display:block;
+  }
+  #contact {
+    clear: left;
+  }
+  #contact h1 {
+    margin-top: 15%;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 280%;
+  }
+  #contact img {
+    width: 100%;
+    height: 22%;
+    object-fit: cover;
+    opacity: 1;
+  }
+} /*500*/
+
+@media only screen and (max-width: 415px) {
+  #name, #name2 p {
+    display: none;
+  }
+  #header {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #6de7f9;
+    margin-top: 1px;
+  }
+  body {
+    background-color: #4a4a4a;
+  }
+  #header h1 {
+    background-color: #4a4a4a;
+  }
+  #quad {
+    width: 100%;
+  }
+  #web {
+    clear: left;
+    margin-top: -1.5%;
+  }
+  #web h1 {
+    margin-left: 14%;
+    margin-top: 12%;
+    font-size: 220%;
+  }
+  #web img {
+    width: 100%;
+    height: 22%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  #graphics {
+    clear: left;
+  }
+  #graphics h1 {
+    margin-left: 22%;
+    margin-top: 13%;
+    font-size: 260%;
+  }
+  #graphics img {
+    width: 100%;
+    height: 23%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  #story {
+    clear: left;
+  }
+  #story h1 {
+    margin-top: 13%;
+    margin-left: 26%;
+    font-size: 260%;
+  }
+  #story img {
+    width: 100%;
+    height: 22%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  .bingo {
+    display: none;
+  }
+  .peopleweb {
+    display:block;
+  }
+  #contact {
+    clear: left;
+  }
+  #contact h1 {
+    margin-top: 13%;
+    margin-left: 22%;
+    font-size: 260%;
+  }
+  #contact img {
+    width: 100%;
+    height: 23%;
+    object-fit: cover;
+    opacity: 1;
+  }
+} /*415*/
+
+@media only screen and (max-width: 375px) {
+  #name, #name2 p {
+    display: none;
+  }
+  #header {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #6de7f9;
+    margin-top: 1px;
+  }
+  body {
+    background-color: #4a4a4a;
+  }
+  #header h1 {
+    background-color: #4a4a4a;
+  }
+  #quad {
+    width: 100%;
+  }
+  #web {
+    clear: left;
+    margin-top: -1.5%;
+  }
+  #web h1 {
+    margin-left: 6%;
+    margin-top: 45px;
+    font-size: 230%;
+  }
+  #web img {
+    width: 100%;
+    height: 22%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  #graphics {
+    clear: left;
+  }
+  #graphics h1 {
+    margin-left: 18%;
+    margin-top: 15%;
+    font-size: 280%;
+  }
+  #graphics img {
+    width: 100%;
+    height: 23%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  #story {
+    clear: left;
+  }
+  #story h1 {
+    margin-top: 12%;
+    margin-left: 22%;
+    font-size: 280%;
+  }
+  #story img {
+    width: 100%;
+    height: 22%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  .bingo {
+    display: none;
+  }
+  .peopleweb {
+    display:block;
+  }
+  #contact {
+    clear: left;
+  }
+  #contact h1 {
+    margin-top: 45px;
+    margin-left: 18%;
+    font-size: 280%;
+  }
+  #contact img {
+    width: 100%;
+    height: 22%;
+    object-fit: cover;
+    opacity: 1;
+  }
+} /*375*/
+
+@media only screen and (max-width: 360px) {
+  #name, #name2 p {
+    display: none;
+  }
+  #header {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #6de7f9;
+    margin-top: 1px;
+  }
+  body {
+    background-color: #4a4a4a;
+  }
+  #header h1 {
+    background-color: #4a4a4a;
+  }
+  #quad {
+    width: 100%;
+  }
+  #web {
+    clear: left;
+    margin-top: -1.5%;
+  }
+  #web h1 {
+    margin-left: 10%;
+    margin-top: 14%;
+    font-size: 200%;
+  }
+  #web img {
+    width: 100%;
+    height: 22%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  #graphics {
+    clear: left;
+  }
+  #graphics h1 {
+    margin-left: 18%;
+    margin-top: 13%;
+    font-size: 280%;
+  }
+  #graphics img {
+    width: 100%;
+    height: 22%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  #story {
+    clear: left;
+  }
+  #story h1 {
+    margin-top: 13%;
+    margin-left: 22%;
+    font-size: 280%;
+  }
+  #story img {
+    width: 100%;
+    height: 22%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  .bingo {
+    display: none;
+  }
+  .peopleweb {
+    display:block;
+  }
+  #contact {
+    clear: left;
+  }
+  #contact h1 {
+    margin-top: 13%;
+    margin-left: 16%;
+    font-size: 280%;
+  }
+  #contact img {
+    width: 100%;
+    height: 22%;
+    object-fit: cover;
+    opacity: 1;
+  }
+} /*360*/
+
+@media only screen and (max-width: 325px) {
+  #name, #name2 p {
+    display: none;
+  }
+  #header {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #6de7f9;
+    margin-top: 1px;
+  }
+  body {
+    background-color: #4a4a4a;
+  }
+  #header h1 {
+    background-color: #4a4a4a;
+  }
+  #quad {
+    width: 100%;
+  }
+  #web {
+    clear: left;
+    margin-top: -1.5%;
+  }
+  #web h1 {
+    margin-left: 10%;
+    margin-top: 14%;
+    font-size: 180%;
+  }
+  #web img {
+    width: 100%;
+    height: 22%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  #graphics {
+    clear: left;
+  }
+  #graphics h1 {
+    margin-left: 18%;
+    margin-top: 14%;
+    font-size: 240%;
+  }
+  #graphics img {
+    width: 100%;
+    height: 22%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  #story {
+    clear: left;
+  }
+  #story h1 {
+    margin-top: 14%;
+    margin-left: 24%;
+    font-size: 240%;
+  }
+  #story img {
+    width: 100%;
+    height: 22%;
+    object-fit: cover;
+    opacity: 1;
+  }
+  .bingo {
+    display: none;
+  }
+  .peopleweb {
+    display:block;
+  }
+  #contact {
+    clear: left;
+  }
+  #contact h1 {
+    margin-top: 10%;
+    margin-left: 18%;
+    font-size: 240%;
+  }
+  #contact img {
+    width: 100%;
+    height: 22%;
+    object-fit: cover;
+    opacity: 1;
+  }
+} /*325*/

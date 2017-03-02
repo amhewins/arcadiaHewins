@@ -1,0 +1,271 @@
+body {
+  margin: 0px;
+}
+.hero {
+  background-image: url('../images/IMG_2571.png');
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.hero .overlay {
+  position: absolute;
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  padding-left: 5px;
+}
+.hero .overlay p {
+  text-align: left;
+  font-size: 400%;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 120px;
+  padding-left: 80px;
+  letter-spacing: 4px;
+}
+#logo img {
+  margin-left: 33%;
+}
+li {
+  list-style-type: none;
+}
+nav {
+  padding-left: 90px;
+  margin-top: -60px;
+  font-family: 'Raleway', sans-serif;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+}
+nav a:hover {
+  color: #00ffff;
+}
+nav ul li {
+  display: inline-block;
+}
+.content {
+  padding-top: 10px;
+}
+.resume {
+  font-family: 'Raleway', sans-serif;
+}
+.resume h1 {
+  text-align: center;
+  font-size: 300%;
+  color: black;
+}
+.resume h2 {
+  text-align: center;
+  color: #4ac4d8;
+  padding-bottom: -15%;
+}
+.resume p {
+  text-align: center;
+}
+
+#name p {
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  color: #6de7f9;
+  text-align: center;
+  margin-left: 27%;
+  margin-top: 20%;
+  z-index: 50;
+  font-size: 640%;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px #000; /*ff0000 is red*/
+}
+#name2 p {
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  color: #6de7f9;
+  text-align: center;
+  margin-left: 27%;
+  margin-top: 21%;
+  z-index: 50;
+  font-size: 640%;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px #000; /*ff0000 is red*/
+}
+#header {
+  display: none;
+}
+
+#web h1 {
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  margin-left: 8%;
+  margin-top: 10%;
+  color: white;
+  font-size: 350%;
+}
+#web img {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 50%;
+  opacity: .5;
+  object-fit: cover;
+}
+#web img:hover {
+  opacity: 1;
+}
+#web h1:hover {
+  text-shadow: 2px 2px #000;
+}
+#graphics h1 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  margin-left: 63%;
+  margin-top: 10%;
+  font-size: 350%;
+}
+#graphics img {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 50%;
+  opacity: .5;
+  object-fit: cover;
+}
+.peopleweb {
+  display: none;
+}
+#graphics h1:hover {
+  text-shadow: 2px 2px #000;
+}
+#graphics img:hover {
+  opacity: 1;
+}
+#story h1 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  margin-left: 15%;
+  margin-top: 36%;
+  font-size: 350%;
+}
+#story img {
+  position: relative;
+  clear: left;
+  float: left;
+  width: 50%;
+  height: 50%;
+  opacity: .5;
+  object-fit: cover;
+}
+#story img:hover {
+  opacity: 1;
+}
+#story h1:hover {
+  text-shadow: 2px 2px #000;
+}
+#contact h1 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  margin-left: 65%;
+  margin-top: 36%;
+  font-size: 350%;
+}
+#contact img {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 50%;
+  opacity: .5;
+  object-fit: cover;
+}
+#contact img:hover {
+  opacity: 1;
+}
+/* #contact h1:hover {
+  text-shadow: 2px 2px #000;
+} */
+
+.footer {
+  background: #131820;
+  padding-left: 30%;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  clear: left;
+}
+.footer li {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+}
+.footer a:hover {
+  color: #00ffff;
+}
+.social {
+    padding-left: 15%;
+}
+.social a:hover {
+  opacity: 0.3;
+}
+/*
+@media only screen and (max-width: 830px) {
+  .hero p {
+    margin-left: 5%;
+    margin-top: -5px;
+  }
+  .hero nav {
+    margin-left: 5%;
+    margin-top: -30px;
+  }
+  .footindex {
+    margin-left: -20%;
+  }
+  .social {
+    margin-left: -12%;
+  }
+}
+@media only screen and (max-width: 745px) {
+  .hero p {
+    margin-left: 5%;
+    margin-top: -10px;
+  }
+  .hero nav {
+    margin-left: -20%;
+    margin-top: -30px;
+  }
+  .footindex {
+    margin-left: -40%;
+  }
+  .social {
+    margin-left: -23%;
+  }
+  #resume {
+    margin-left: 30%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .hero p {
+      margin-left: -15px;
+      margin-top: -10px;
+    }
+  .hero nav {
+      margin-left: -130px;
+      margin-top: -30px;
+    }
+  .footindex {
+    margin-left: -180px;
+  }
+  .social {
+    margin-left: -100px;
+  }
+  #resume {
+    margin-left: 28%;
+  }
+}
+*/

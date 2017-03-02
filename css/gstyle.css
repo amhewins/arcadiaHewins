@@ -1,0 +1,415 @@
+@font-face {
+    font-family: misproject;
+    src: url(MISPROJECT.TTF);
+}
+h1 {
+  text-align: center;
+  font-size: 400%;
+  opacity: 0.8;
+}
+body {
+  font-family: misproject;
+  background-image: url(made_background.jpg);
+}
+.nav {
+  display: inline-block;
+  position: fixed;
+  margin-left: 810px;
+  margin-top: 55px;
+  font-size: 170%;
+  opacity: .9;
+}
+.line {
+  position: fixed;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+.nav ul {
+  list-style-type: none;
+  text-align: right;
+}
+.nav ul li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+ul a:hover {
+  color: #3366FF;
+}
+
+.line {
+  position: absolute;
+  display: inline-block;
+  margin-top: 60px;
+  margin-left: 850px;
+  width: 25%;
+  height: 25%;
+}
+.notes {
+  position: absolute;
+  top: 0;
+}
+.one {
+  float: left;
+  width: 70px;
+  height: 70px;
+  padding-left: 35px;
+  top: 0;
+}
+.two {
+  clear: left;
+  float: left;
+  width: 50px;
+  height: 50px;
+  padding-left: 5px;
+}
+.three {
+  clear: left;
+  float: left;
+  width: 40px;
+  height: 40px;
+  padding-left: 55px;
+}
+.pictures {
+  position: relative;
+  display: inline-block;
+  width:100%;
+}
+.diamond {
+  width: 100px;
+  height: 100px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 5px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  overflow: hidden;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+.diamond a:hover img {
+  filter: none;
+  -webkit-filter: none;
+  opacity: 1 !important;
+  transform: rotate(-45deg);
+}
+.diamond img {
+  filter: url(filters.svg#grayscale);
+  filter: gray;
+  -webkit-filter: grayscale(1);
+}
+.guitar {
+  margin-top:20px;
+  margin-left: 200px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+.keyboard {
+  margin-top:20px;
+  margin-left: 340px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+.mic {
+  margin-top:20px;
+  margin-left: 480px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+.drum {
+  margin-top:20px;
+  margin-left: 620px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+
+.cello {
+  margin-top:90px;
+  margin-left: 270px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+.dj {
+  margin-top:90px;
+  margin-left: 410px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+.headphone {
+  margin-top:90px;
+  margin-left: 550px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+.light {
+  margin-top:90px;
+  margin-left: 690px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+
+.speaker {
+  margin-top:160px;
+  margin-left: 200px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+.amp {
+  margin-top:160px;
+  margin-left: 340px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+.whatever {
+  margin-top:160px;
+  margin-left: 480px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+.album {
+  margin-top:160px;
+  margin-left: 620px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+.social-list {
+  margin-left: 410px;
+}
+.social {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.content {
+  margin-top:450px;
+}
+.facebook {
+  margin-left: -120px;
+  margin-right: 75px;
+  width: 20px;
+  height: 20px;
+}
+.twitter {
+  margin-right: 80px;
+  width: 20px;
+  height: 20px;
+}
+.instagram {
+  margin-right: 85px;
+  width: 20px;
+  height: 20px;
+}
+.google {
+  margin-right: 90px;
+  width: 20px;
+  height: 20px;
+}
+.back {
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+}
+.arrow {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin-top: -200px;
+  margin-left: 925px;
+  position: fixed;
+}
+.info {
+  font-size: 400%;
+  text-align: center;
+}
+.info ul {
+  font-size: 50%;
+  text-align: center;
+  float: left;
+  margin-left: 400px;
+  list-style-type: none;
+}
+.info h3 {
+  font-size: 100%;
+  margin-bottom: -20px;
+  text-align: center;
+}
+.guitars {
+  margin-left: 26px;
+    margin-top: 475px;
+}
+.guitars p {
+  margin-left: 5px;
+}
+.keyboards {
+  margin-left: 26px;
+    margin-top: 525px;
+}
+.keyboards p {
+  margin-left: 5px;
+}
+.mics {
+  margin-left: 26px;
+    margin-top: 525px;
+}
+.mics p {
+  margin-left: 5px;
+}
+.drums {
+  margin-left: 26px;
+    margin-top: 550px;
+}
+.drums p {
+  margin-left: 5px;
+}
+.chellos {
+  margin-left: 26px;
+    margin-top: 500px;
+}
+.chellos p {
+  margin-left: 5px;
+}
+.djs {
+  margin-left: 26px;
+    margin-top: 550px;
+}
+.djs p {
+  margin-left: 5px;
+}
+.headphones {
+  margin-left: 26px;
+    margin-top: 525px;
+}
+.headphones p {
+  margin-left: 5px;
+}
+.lights {
+  margin-left: 26px;
+    margin-top: 500px;
+}
+.lights p {
+  margin-left: 5px;
+}
+.speakers {
+  margin-left: 26px;
+    margin-top: 550px;
+}
+.speakers p {
+  margin-left: 5px;
+}
+.amps {
+  margin-left: 26px;
+    margin-top: 500px;
+}
+.amps p {
+  margin-left: 5px;
+}
+.whatevers {
+  margin-left: 26px;
+    margin-top: 550px;
+}
+.whatevers p {
+  margin-left: 5px;
+}
+.albums {
+  margin-left: 26px;
+    margin-top: 525px;
+}
+.albums p {
+  margin-left: 5px;
+}
+.about {
+  margin-top: 500px;
+  text-align: center;
+  font-size: 300%;
+}
+.aboutwords {
+  font-family: sans-serif;
+  color: black;
+  margin-left: 540px;
+  margin-right: 240px;
+}
+.about img {
+  float: left;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+.blackbox {
+  margin-top: 100px;
+  width: 600px;
+  height: 100px;
+  background-color: black;
+  border: solid 1px black;
+  margin-left: 250px;
+}
+h4 {
+    border-top: 95px solid transparent;
+    border-left: 30px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 200px;
+    color: white;
+    font-family: sans-serif;
+}
+h4 div {
+    position: relative;
+    top: -100px;
+}
+.contact {
+  margin-top: 500px;
+  text-align: center;
+  font-size: 300%;
+}
+.work {
+  margin-top: 500px;
+  text-align: center;
+  font-size: 300%;
+}
+.contact {
+  margin-top: 430px;
+}
+.contact p{
+  font-family: sans-serif;
+  font-size: 40%;
+}
+input {
+    margin-top: 5px;
+    width: 400px;
+}
+
+#input {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    background-color: white;
+    background-color: -moz-field;
+    border: 1px solid darkgray;
+    box-shadow: 1px 1px 1px 0 lightgray inset;
+    font: -moz-field;
+    font: -webkit-small-control;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 325px;
+    padding: 2px 3px;
+    width: 398px;
+}
+.work {
+  margin-top: 900px;
+}

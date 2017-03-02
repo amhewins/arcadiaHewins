@@ -1,0 +1,322 @@
+/* CRISIS */
+#crisis {
+  position: relative;
+  width: 350px;
+  height: 400px;
+  overflow: hidden;
+  float: left;
+  margin: 10 15% 5% 15%;
+}
+#crisis > div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#crisis img {
+  display: block;
+  width: 350px;
+  height: 400px;
+}
+#crisisText {
+  background: #000;
+  color: #ccc;
+  display: none;
+  overflow: hidden;
+}
+#crisisText p {
+  font-family: 'Helvetica';
+  padding: 5px;
+  margin: 0;
+}
+
+/* SWEETEST SUITE*/
+#sweet {
+  position: relative;
+  width: 350px;
+  height: 400px;
+  overflow: hidden;
+  float: left;
+  margin-top: 10px;
+}
+#sweet > div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#sweet img {
+  display: block;
+  width: 350px;
+  height: 400px;
+}
+#sweetText {
+  background: #000;
+  color: #ccc;
+  display: none;
+  overflow: hidden;
+}
+#sweetText p {
+  font-family: 'Helvetica';
+  padding: 5px;
+  margin: 0;
+}
+
+/* LAUNDRY */
+#laundry {
+  position: relative;
+  width: 350px;
+  height: 400px;
+  overflow: hidden;
+  clear: left;
+  float: left;
+  margin: 10 15% 5% 15%;
+}
+#laundry > div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#laundry img {
+  display: block;
+  width: 350px;
+  height: 400px;
+}
+#laundryText {
+  background: #000;
+  color: #ccc;
+  display: none;
+  overflow: hidden;
+}
+#laundryText p {
+  font-family: 'Helvetica';
+  padding: 5px;
+  margin: 0;
+}
+
+/* FACTS */
+#facts {
+  position: relative;
+  width: 350px;
+  height: 400px;
+  overflow: hidden;
+  float: left;
+  margin-top: 10px;
+}
+#facts > div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#facts img {
+  display: block;
+  width: 350px;
+  height: 400px;
+}
+#factsText {
+  background: #000;
+  color: #ccc;
+  display: none;
+  overflow: hidden;
+}
+#factsText p {
+  font-family: 'Helvetica';
+  padding: 5px;
+  margin: 0;
+}
+
+/* SEX DEGREES */
+#sexDegrees {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  overflow: hidden;
+  clear: left;
+  float: left;
+  margin: 10 15% 5% 15%;
+}
+#sexDegrees > div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#sexDegrees img {
+  display: block;
+  width: 350px;
+  height: 300px;
+}
+#sexDegreesText {
+  background: #000;
+  color: #ccc;
+  display: none;
+  overflow: hidden;
+}
+#sexDegreesText p {
+  font-family: 'Helvetica';
+  padding: 5px;
+  margin: 0;
+}
+
+/* RA */
+#ra {
+  position: relative;
+  width: 350px;
+  height: 160px;
+  overflow: hidden;
+  float: left;
+  margin-top: 75px;
+}
+#ra > div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#ra img {
+  display: block;
+  width: 350px;
+  height: 160px;
+}
+#raText {
+  background: #000;
+  color: #ccc;
+  display: none;
+  overflow: hidden;
+}
+#raText p {
+  font-family: 'Helvetica';
+  padding: 5px;
+  margin: 0;
+}
+
+/* ORL */
+#orl {
+  position: relative;
+  width: 350px;
+  height: 400px;
+  overflow: hidden;
+  clear: left;
+  float: left;
+  margin: 10 15% 5% 15%;
+}
+#orl > div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#orl img {
+  display: block;
+  width: 350px;
+  height: 400px;
+}
+#orlText {
+  background: #000;
+  color: #ccc;
+  display: none;
+  overflow: hidden;
+}
+#orlText p {
+  font-family: 'Helvetica';
+  padding: 5px;
+  margin: 0;
+}
+
+/* OUTDOORS */
+#outdoors {
+  position: relative;
+  width: 180px;
+  height: 450px;
+  overflow: hidden;
+  float: left;
+  margin-top: 10px;
+  margin-left: 8%;
+}
+#outdoors > div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#outdoors img {
+  display: block;
+  width: 180px;
+  height: 450px;
+}
+#outdoorsText {
+  background: #000;
+  color: #ccc;
+  display: none;
+  overflow: hidden;
+}
+#outdoorsText p {
+  font-family: 'Helvetica';
+  padding: 5px;
+  margin: 0;
+}
+
+/* FRANKLIN */
+#franklin {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  overflow: hidden;
+  clear: left;
+  float: left;
+  margin: 10 15% 0% 25%;
+}
+#franklin > div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#franklin img {
+  display: block;
+  width: 350px;
+  height: 300px;
+}
+#franklinText {
+  background: #000;
+  color: #ccc;
+  display: none;
+  overflow: hidden;
+}
+#franklinText p {
+  font-family: 'Helvetica';
+  padding: 5px;
+  margin: 0;
+}
+#franklin2 {
+  clear: left;
+  float: left;
+  margin-left: 25%;
+}
+#franklin3 {
+  float: left;
+}
+#franklin4 {
+  clear: left;
+  float: left;
+  margin-left: 25%;
+}
+#franklin5 {
+  float: left;
+}
+#franklin6 {
+  clear: left;
+  float: left;
+  margin-left: 25%;
+}
+#franklin7 {
+  float: left;
+}
+#franklin8 {
+  clear: left;
+  float: left;
+  margin-left: 25%;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,173 @@
+@media only screen and (max-width: 1500px) {
+
+} /* 1500 */
+
+@media only screen and (max-width: 1024px) {
+  body {
+    background-color: #4a4a4a;
+  }
+  .web {
+    background-color: white;
+  }
+  .graphics {
+    background-color: white;
+  }
+  .content {
+    background-color: white;
+    padding-left: 2%;
+  }
+} /* 1024 */
+
+@media only screen and (max-width: 700px) {
+  body {
+    background-color: #4a4a4a;
+  }
+  .content {
+    background-color: white;
+    padding-left: 2%;
+  }
+} /* 700 */
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: #4a4a4a;
+  }
+  .content {
+    background-color: white;
+    padding-left: 2%;
+  }
+} /* 500 */
+
+@media only screen and (max-width: 415px) {
+  body {
+    background-color: #4a4a4a;
+  }
+  .content {
+    background-color: white;
+    padding-left: 2%;
+  }
+} /* 415 */
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: #4a4a4a;
+  }
+  .content {
+    background-color: white;
+    padding-left: 2%;
+  }
+  h2 {
+    font-size: 130%;
+  }
+  #greggs img {
+    width: 80%;
+    height: 15%;
+    padding-left: 5%;
+  }
+  #greggs img {
+    width: 80%;
+    height: 15%;
+    padding-left: 5%;
+  }
+  #goodearth img {
+    width: 80%;
+    height: 15%;
+    padding-left: 5%;
+    margin-top: -200px;
+  }
+  #philau img {
+    width: 80%;
+    height: 15%;
+    padding-left: 5%;
+    margin-top: -135px;
+  }
+  #stuckinlove img {
+    width: 80%;
+    height: 15%;
+    padding-left: 5%;
+    margin-top: -135px;
+  }
+
+} /* 375 */
+
+@media only screen and (max-width: 360px) {
+  body {
+    background-color: #4a4a4a;
+  }
+  .content {
+    background-color: white;
+    padding-left: 5%;
+  }
+  h2 {
+    font-size: 130%;
+  }
+  #greggs img {
+    width: 80%;
+    height: 15%;
+    padding-left: 5%;
+  }
+  #greggs img {
+    width: 80%;
+    height: 15%;
+    padding-left: 5%;
+  }
+  #goodearth img {
+    width: 80%;
+    height: 15%;
+    padding-left: 5%;
+    margin-top: -200px;
+  }
+  #philau img {
+    width: 80%;
+    height: 15%;
+    padding-left: 5%;
+    margin-top: -135px;
+  }
+  #stuckinlove img {
+    width: 80%;
+    height: 15%;
+    padding-left: 5%;
+    margin-top: -135px;
+  }
+} /* 360 */
+
+@media only screen and (max-width: 325px) {
+  body {
+    background-color: #4a4a4a;
+  }
+  .content {
+    background-color: white;
+    padding-left: 5%;
+  }
+  h2 {
+    font-size: 130%;
+  }
+  #greggs img {
+    width: 80%;
+    height: 15%;
+    padding-left: 5%;
+  }
+  #greggs img {
+    width: 80%;
+    height: 15%;
+    padding-left: 5%;
+  }
+  #goodearth img {
+    width: 80%;
+    height: 15%;
+    padding-left: 5%;
+    margin-top: -200px;
+  }
+  #philau img {
+    width: 80%;
+    height: 15%;
+    padding-left: 5%;
+    margin-top: -135px;
+  }
+  #stuckinlove img {
+    width: 80%;
+    height: 15%;
+    padding-left: 5%;
+    margin-top: -135px;
+  }
+} /* 325 */

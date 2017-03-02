@@ -1,0 +1,233 @@
+@media only screen and (max-width: 1500px) {
+
+} /* 1500 */
+
+@media only screen and (max-width: 1024px) {
+  .hero {
+    display: none;
+  }
+  #header {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #6de7f9;
+    margin-top: 1px;
+  }
+  #header h1 {
+    background-color: #4a4a4a;
+  }
+  footer {
+    padding-left: 0;
+  }
+  footer .footindex a {
+    margin-left: -20px;
+  }
+  footer .footindex {
+    margin-left: 50px;
+  }
+  footer .social a {
+    padding-left: 20px;
+  }
+} /* 1024 */
+
+@media only screen and (max-width: 940px) {
+  .hero {
+    display: none;
+  }
+  #header {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #6de7f9;
+    margin-top: 1px;
+  }
+  #header h1 {
+    background-color: #4a4a4a;
+  }
+  footer {
+    padding-left: 0;
+  }
+  footer .footindex a {
+    margin-left: -25px;
+  }
+  footer .footindex {
+    margin-left: 20px;
+  }
+  footer .social {
+    padding-left: 80px;
+  }
+  footer .social a {
+    padding-left: 25px;
+  }
+} /* 940 */
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    display: none;
+  }
+  #header {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #6de7f9;
+    margin-top: 1px;
+  }
+  #header h1 {
+    background-color: #4a4a4a;
+  }
+  footer {
+    padding-left: 0;
+  }
+  footer .footindex a {
+    margin-left: -25px;
+  }
+  footer .footindex {
+    margin-left: 0px;
+  }
+  footer .social {
+    padding-left: 80px;
+  }
+  footer .social a {
+    padding-left: 25px;
+  }
+} /* 700 */
+
+@media only screen and (max-width: 500px) {
+  .hero {
+    display: none;
+  }
+  #header {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #6de7f9;
+    margin-top: 1px;
+  }
+  #header h1 {
+    background-color: #4a4a4a;
+  }
+  footer {
+    padding-left: 0;
+  }
+  footer .footindex a {
+    margin-left: -25px;
+  }
+  footer .footindex {
+    margin-left: -18px;
+  }
+  footer .social a {
+    padding-left: 25px;
+  }
+} /* 500 */
+
+@media only screen and (max-width: 415px) {
+  .hero {
+    display: none;
+  }
+  #header {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #6de7f9;
+    margin-top: 1px;
+  }
+  #header h1 {
+    background-color: #4a4a4a;
+  }
+  footer {
+    padding-left: 0;
+  }
+  footer .footindex a {
+    margin-left: -30px;
+  }
+  footer .footindex {
+    margin-left: -18px;
+  }
+  footer .social a {
+    padding-left: 25px;
+  }
+} /* 415 */
+
+@media only screen and (max-width: 375px) {
+  .hero {
+    display: none;
+  }
+  #header {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #6de7f9;
+    margin-top: 1px;
+  }
+  #header h1 {
+    background-color: #4a4a4a;
+  }
+  footer {
+    padding-left: 0;
+  }
+  footer .footindex a {
+    margin-left: -30px;
+  }
+  footer .footindex {
+    margin-left: -18px;
+  }
+  footer .social a {
+    padding-left: 25px;
+  }
+} /* 375 */
+
+@media only screen and (max-width: 360px) {
+  .hero {
+    display: none;
+  }
+  #header {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #6de7f9;
+    margin-top: 1px;
+  }
+  #header h1 {
+    background-color: #4a4a4a;
+  }
+  footer {
+    padding-left: 0;
+  }
+  footer .footindex a {
+    margin-left: -30px;
+  }
+  footer .footindex {
+    margin-left: -18px;
+  }
+  footer .social a {
+    padding-left: 25px;
+  }
+} /* 360 */
+
+@media only screen and (max-width: 325px) {
+  .hero {
+    display: none;
+  }
+  #header {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #6de7f9;
+    margin-top: 1px;
+  }
+  #header h1 {
+    background-color: #4a4a4a;
+  }
+  footer {
+    padding-left: 0;
+  }
+  footer .footindex a {
+    margin-left: -30px;
+  }
+  footer .footindex {
+    margin-left: -18px;
+  }
+  footer .social a {
+    padding-left: 25px;
+  }
+} /* 325 */
