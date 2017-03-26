@@ -47,18 +47,18 @@ nav ul li {
 #header {
   display: none;
 }
-#greggs {
+#bookApp {
   float: left;
   object-fit: cover;
 }
-#greggs .text {
+#bookApp .text {
   position:relative;
   bottom: 300px;
   left:50px;
   visibility:hidden;
   font-size: 250%;
 }
-#greggs:hover .text {
+#bookApp:hover .text {
   visibility:visible;
 }
 #goodearth {
