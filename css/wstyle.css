@@ -31,10 +31,7 @@ body {
 }
 .web p {
   color: black;
-  /*font-size: 300%;*/
   font-family: 'Raleway', sans-serif;
-  /*position: absolute;*/
-  /*float: left;*/
 }
 .web img {
   position: relative;
@@ -68,53 +65,21 @@ nav ul li {
 }
 #bookApp {
   object-fit: cover;
-  /*float: left;*/
+  float: left;
 }
-#bookApp .text {
-  position:relative;
-  bottom: 300px;
-  left:50px;
-  visibility:hidden;
-  font-size: 250%;
-}
-#bookApp:hover .text {
-  visibility:visible;
+
+.text {
+  float: right;
 }
 #goodearth {
   object-fit: cover;
-}
-#goodearth .text {
-  position:relative;
-  bottom:300px;
-  left:140px;
-  visibility:hidden;
-}
-#goodearth:hover .text {
-  visibility:visible;
+  clear: left;
 }
 #philau {
   object-fit: cover;
 }
-#philau .text {
-  position:relative;
-  bottom:190px;
-  left:100px;
-  visibility:hidden;
-}
-#philau:hover .text {
-  visibility:visible;
-}
 #stuckinlove {
-  
-}
-#stuckinlove .text {
-  position:relative;
-  bottom:190px;
-  left:120px;
-  visibility:hidden;
-}
-#stuckinlove:hover .text {
-  visibility:visible;
+
 }
 #all {
   clear: left;
