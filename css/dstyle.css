@@ -2,7 +2,7 @@ body {
   margin: 0px;
 }
 .hero {
-  background-image: url('../images/code.jpg');
+  background-image: url('../images/devBG-min.jpg');
   background-size: cover;
   height: 500px;
   position: relative;
@@ -47,89 +47,67 @@ nav ul li {
 #header {
   display: none;
 }
-#bookApp {
-  float: left;
-  object-fit: cover;
-}
-#bookApp .text {
-  position:relative;
-  bottom: 300px;
-  left:50px;
-  visibility:hidden;
-  font-size: 250%;
-}
-#bookApp:hover .text {
-  visibility:visible;
-}
-#goodearth {
-  float: left;
-  object-fit: cover;
-}
-#goodearth .text {
-  position:relative;
-  bottom:300px;
-  left:140px;
-  visibility:hidden;
-}
-#goodearth:hover .text {
-  visibility:visible;
-}
-#philau {
-  clear: left;
-  float: left;
-  object-fit: cover;
-  margin-top: -9%;
-}
-#philau .text {
-  position:relative;
-  bottom:190px;
-  left:100px;
-  visibility:hidden;
-}
-#philau:hover .text {
-  visibility:visible;
-}
-#stuckinlove {
-  float: left;
-  object-fit: cover;
-  margin-top: -9%;
-}
-#stuckinlove .text {
-  position:relative;
-  bottom:190px;
-  left:120px;
-  visibility:hidden;
-}
-#stuckinlove:hover .text {
-  visibility:visible;
-}
 .web {
   padding-left: 10%;
-  margin-top: 10px;
-  padding-top: 10px;
 }
 .web a {
   list-style-type: none;
   text-decoration: none;
 }
 .web p {
-  color: white;
-  font-size: 300%;
+  color: black;
   font-family: 'Raleway', sans-serif;
-  position: absolute;
+  margin-left: 10%;
+}
+.web h2 {
+  margin-left: 10%;
 }
 .web img {
   position: relative;
+}
+#bookApp {
+  object-fit: cover;
+  float: left;
+}
+#bookApp .text {
+  float: left;
+}
+#goodearth img {
+  object-fit: cover;
+  clear:left;
+  float: left;
+}
+#goodEarth .text {
+  float: left;
+}
+#philau {
+  object-fit: cover;
+  float: left;
+}
+#philau h2 {
+  margin-left: 5%;
+}
+#philau p {
+  margin-left: 5%;
+}
+#philau .text {
+  float: left;
+}
+#stuckinlove {
+  float: left;
+}
+#stuckinlove .text {
+  float: left;
 }
 body {
   font-family: 'Raleway', sans-serif;
 }
 footer {
   background: #131820;
-  padding-left: 30%;
   padding-top: 30px;
   padding-bottom: 25px;
   clear: left;
+  text-align: center;
 }
 footer li {
   display: inline-block;
@@ -142,9 +120,6 @@ footer a {
 }
 footer a:hover {
   color: #00ffff;
-}
-.social {
-  padding-left: 15%;
 }
 .social a:hover {
   opacity: 0.3;

@@ -187,14 +187,10 @@ nav ul li {
 }
 footer {
   background: #131820;
-  padding-left: 30%;
   padding-top: 30px;
   padding-bottom: 25px;
   clear: left;
-}
-footer p {
-  color: white;
-  font-family: 'Raleway', sans-serif;;
+  text-align: center;
 }
 footer li {
   display: inline-block;
@@ -207,9 +203,6 @@ footer a {
 }
 footer a:hover {
   color: #00ffff;
-}
-.social {
-  padding-left: 20%;
 }
 .social a:hover {
   opacity: 0.3;

@@ -61,27 +61,24 @@ nav ul li {
 .story p {
   margin-left: 12%;
 }
-.footer {
+footer {
   background: #131820;
-  padding-left: 30%;
   padding-top: 30px;
   padding-bottom: 25px;
   clear: left;
+  text-align: center;
 }
-.footer li {
+footer li {
   display: inline-block;
   font-family: 'Raleway', sans-serif;
 }
-.footer a {
+footer a {
   color: white;
   text-decoration: none;
   padding-left: 30px;
 }
-.footer a:hover {
+footer a:hover {
   color: #00ffff;
-}
-.social {
-    padding-left: 15%;
 }
 .social a:hover {
   opacity: 0.3;
