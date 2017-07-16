@@ -2,9 +2,9 @@ body {
   margin: 0px;
 }
 .hero {
-  background-image: url('../images/contactimg.png');
+  background-image: url('../images/yellowstone/DSC_0643-minb.jpg');
   background-size: cover;
-  height: 500px;
+  height: 450px;
   position: relative;
   background-repeat: no-repeat;
 }
@@ -19,11 +19,12 @@ body {
 }
 .hero .overlay p {
   text-align: left;
-  font-size: 400%;
+  font-size: 350%;
   font-family: 'Raleway', sans-serif;
   padding-top: 120px;
   padding-left: 80px;
   letter-spacing: 4px;
+  line-height: 1.8;
 }
 #header {
   display: none;

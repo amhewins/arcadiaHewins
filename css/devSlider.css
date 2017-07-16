@@ -8,6 +8,16 @@
     transform: translate3d(0, 0, 0);
     transition: transform .5s ease-in-out;
 }
+#slidewrapper3 {
+    width: 8000px;
+    transform: translate3d(0, 0, 0);
+    transition: transform .5s ease-in-out;
+}
+#slidewrapper4 {
+    width: 8000px;
+    transform: translate3d(0, 0, 0);
+    transition: transform .5s ease-in-out;
+}
 .scontent {
     float: left;
     width: 550px;
@@ -45,6 +55,35 @@
     background-color: #000;
     background-image: url('../images/stuckinlove.jpg');
     background-size: 550px 380px;
+}
+
+#itemFive {
+    background-color: #000;
+    background-image: url('../images/crisistext.jpg');
+    background-size: 550px 380px;
+    background-size: contain;
+    background-position: center;
+}
+#itemSix {
+    background-color: #000;
+    background-image: url('../images/web.jpg');
+    background-size: 550px 380px;
+    background-size: contain;
+    background-position: center;
+}
+#itemSeven {
+    background-color: #000;
+    background-image: url('../images/final_black.jpg');
+    background-size: 550px 380px;
+    background-size: contain;
+    background-position: center;
+}
+#itemEight {
+    background-color: #000;
+    background-image: url('../images/webbanner.jpg');
+    background-size: 550px 380px;
+    background-size: contain;
+    background-position: center;
 }
 
 /* WORDS */
@@ -96,6 +135,20 @@
     overflow: hidden;
     float: left;
 }
+#contentContainer3 {
+    width: 550px;
+    height: 380px;
+    border: 2px black solid;
+    overflow: hidden;
+    float: left;
+}
+#contentContainer4 {
+    width: 550px;
+    height: 380px;
+    border: 2px black solid;
+    overflow: hidden;
+    float: left;
+}
 
 /* NAVIGATION */
 #navLinks {
@@ -130,6 +183,45 @@
     color: #FFFFFF;
 }
 #navLinks a {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: -4%;
+  background-color: none;
+}
+#navLinks2 {
+    width: 550px;
+}
+#navLinks2 ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    margin-top: 6px;
+}
+#navLinks2 ul li {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    list-style: none;
+    cursor: pointer;
+    background-color: #CCCCCC;
+    padding: 5px;
+    border-radius: 50%;
+}
+#navLinks2 ul li:hover {
+    background-color: #4CD9ED;
+}
+#navLinks2 ul li.active {
+    background-color: #333333;
+    color: #FFFFFF;
+    outline-width: 7px;
+}
+#navLinks2 ul li.active:hover {
+    background-color: #484848;
+    color: #FFFFFF;
+}
+#navLinks2 a {
   color: black;
   font-family: 'Raleway', sans-serif;
   text-decoration: none;

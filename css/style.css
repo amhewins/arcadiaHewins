@@ -2,9 +2,9 @@ body {
   margin: 0px;
 }
 .hero {
-  background-image: url('../images/IMG_2571.png');
+  background-image: url('../images/yellowstone/DSC_0383-minb.jpg');
   background-size: cover;
-  height: 500px;
+  height: 450px;
   position: relative;
   background-repeat: no-repeat;
 }
@@ -19,11 +19,12 @@ body {
 }
 .hero .overlay p {
   text-align: left;
-  font-size: 400%;
+  font-size: 350%;
   font-family: 'Raleway', sans-serif;
   padding-top: 120px;
   padding-left: 80px;
   letter-spacing: 4px;
+  line-height: 1.8;
 }
 #logo img {
   margin-left: 33%;
@@ -42,7 +43,7 @@ nav a {
   padding-left: 20px;
 }
 nav a:hover {
-  color: #00ffff;
+  color: #55A7B4;
 }
 nav ul li {
   display: inline-block;
@@ -203,6 +204,12 @@ footer a {
 }
 footer a:hover {
   color: #00ffff;
+}
+footer p {
+  color: white;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial sans-serif;
+  text-decoration: none;
+  padding-left: 30px;
 }
 .social a:hover {
   opacity: 0.3;

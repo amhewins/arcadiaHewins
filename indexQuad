@@ -1,0 +1,238 @@
+INDEX:
+
+<div class="quad">
+  <div id="name">
+    <p>Arcadia Hewins</p>
+  </div> <!--name-->
+  <div id="name2">
+    <p>Web Developer</p>
+  </div> <!--name2-->
+
+  <div id="header">
+    <h1>Arcadia Hewins</h1>
+  </div> <!--header-->
+
+  <div class="overlay">
+
+  <div id="web">
+    <a href="dev.html"><img src="images/code.jpg">
+      <h1>Web Development</h1>
+    </a>
+  </div> <!--web-->
+
+
+  <div id="graphics">
+    <a href="otherwork.html" class="bingo"><img src="images/antival2.jpg">
+        <h1>Other Work</h1>
+      </a>
+  </div> <!--graphics-->
+
+  <div id="story">
+    <a href="mystory.html"><img src="images/IMG_2947-min.jpg">
+      <h1>About Me</h1>
+    </a>
+  </div> <!--story-->
+
+  <div id="contact">
+    <a href="contact.html"><img src="images/DSC_0436.jpg">
+      <h1>Contact Me</h1>
+    </a>
+  </div> <!--contact-->
+
+</div> <!--overlay-->
+
+</div> <!--quad-->
+
+
+
+
+
+
+MY STORY
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Story - Arcadia Hewins</title>
+    <link rel="stylesheet" type="text/css" href="css/sstyle.css">
+    <link rel="stylesheet" type="text/css" href="css/headfoot.css">
+    <link rel="stylesheet" type="text/css" href="css/storyresp.css">
+    <link rel="stylesheet" type="text/css" href="css/fluid.css">
+    <link href='https://fonts.googleapis.com/css?family=Asap|Raleway:400,800' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="images/IMG_4416.jpg" />
+  </head>
+  <body>
+    <div class="hero">
+      <div class="overlay">
+        <p>Arcadia Hewins</p>
+        <nav>
+          <ul>
+            <li><a href="mystory.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="dev.html">DEVELOPMENT</a></li>
+            <li><a href="otherwork.html">OTHER WORK</a></li>
+          </ul>
+        </nav>
+      </div> <!--overlay-->
+    </div> <!--hero-->
+    <div id="header">
+      <h1>Arcadia Hewins</h1>
+    </div> <!--header-->
+    <div class="content">
+      <!--<div class="story">-->
+        <h3>Where I'm From</h3>
+        <p>
+          I grew up in a small town in Pennsylvania named Coopersburg. <br>
+          I am an only child with a big extended family. <br>
+        </p>
+        <h3>Where I've Been</h3>
+        <p>
+          I went to Bethlehem Catholic High School. <br>
+          I played softball for the Becahi Golden Hawks. <br>
+          I was also the editor of the yearbook. <br>
+          Costa Rica was my all-time favorite vacation. <br>
+          I have also been to Yellowstone. <br>
+          And the Smoky Mountains. <br>
+          Multiple times I've visited family in Wisconsin. <br>
+          I went to Chicago just to see the baseball stadiums. <br>
+          And I've been to every state that touches Pennsylvania. <br>
+          We used to vacation in North Carolina and still do some holidays down there. <br>
+          I went to Disney for the first time in 2016.
+        </p>
+        <h3>Where I Am</h3>
+        <p>
+          I study Interactive Design and Development. <br>
+          I go to Philadelphia University and live in Roxborough. <br>
+          According to the Myers Brigg's test, I am an <strong>INFJ</strong>. <br>
+          I am very organized and actually enjoy cleaning. (Yes really) <br>
+          All time favorite TV show is <strong>The Office</strong>. <br>
+          My music taste includes a wide variety-my favorite is between Folk, Bluegrass, and Indie. <br>
+          I used to play fastpitch softball and now I play on adult slowpitch teams. <br>
+          I have a puppy named Rosalita who is a Golden Retriever. <br>
+          My favorite number is <strong>8</strong>-mostly because I was born on the 8<sup>th</sup> of February. <br>
+          Speaking of my birthday: I was born in 1996 so I am currently <strong>21 years old</strong>. <br>
+          This summer I will be hostessing in Grant Village at Yellowstone National Park. <br>
+        </p>
+        <h3>Where I'm Going</h3>
+        <p>
+          My hope is to be a Web Developer in Philadelphia or another major city. <br>
+          But that's not to say I'm closed off to other opportunities. <br>
+          I'm just seeing where life takes me and trusting that I will end up where I need to be. <br>
+          Don't they say if you shoot for the moon, you'll land among the stars? <br>
+          Well that's what I'm doing. <br>
+          I'll get to where I need to be when I need to be there. <br>
+        </p>
+      <!--</div> <!--story-->
+      <div id="pictures">
+        <img src="images/Baby Pictures/camera.jpg" alt="" title="" width="300" height="210" id="camera">
+        <img src="images/Baby Pictures/disney2.jpg" alt="" tite="" width="300" height="210" id="acadia">
+        <img src="images/Baby Pictures/glasses.jpg" alt="" tite="" width="300" height="210" id="glasses">
+        <img src="images/Baby Pictures/beccapic.jpg" alt="" title="" width="300" height="210" id="flower">
+        <img src="images/Baby Pictures/umbrella.jpg" alt="" title="" width="300" height="210" id="umbrella">
+        <img src="images/Baby Pictures/easter.jpg" alt="" title="" width="300" height="210" id="easter">
+      </div>
+    </div> <!--content-->
+    <footer>
+      <div class="footer">
+          <ul class="footindex">
+              <li><a href="mystory.html">ABOUT</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+              <li><a href="dev.html">DEVELOPMENT</a></li>
+              <li><a href="otherwork.html">OTHER WORK</a></li>
+          </ul>
+          <ul class="social">
+            <li>
+              <a href="https://github.com/amhewins" target="_blank"><img src="images/github.png" alt="GitHub Logo" title="GitHub"
+              width="30px" height="30px"></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/arcadia-hewins-767227132/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn Logo" title="LinkedIn"
+              width="30px" height="30px"></a>
+            </li>
+          </ul>
+      </div>
+    </footer>
+  </body>
+</html> 
+
+
+DEV
+
+<div class="web">
+<h2>Web Development</h2>
+  <div id="bookApp">
+    <a href="https://books-amhewins.c9users.io/" target="_blank">
+      <img src="images/bookApp-min.png" alt="bookApp Website" title="bookApp"
+      width="550px" height="380px" id="bookApp">
+    </a>
+      <!--<p class="text">bookApp Back End Dev</p>-->
+      <div class="text">
+        <h2>
+          BookApp
+        </h2>
+        <p>
+          Front End Development <br>
+          Back End Development <br>
+          January—April 2017 <br>
+          HTML, CSS, PHP, phpMyAdmin <br>
+          <a href="https://github.com/amhewins/bookApp" target="_blank"><img class="socialimg" src="images/GitHub-Mark.png" alt="GitHub Logo" title="GitHub"
+          width="30px" height="30px"></a>
+        </p>
+    </div> <!--text-->
+  </div> <!--bookApp-->
+  <div id="goodearth">
+    <a href="Good Earth/index.html" target="_blank">
+      <img src="images/goodearth.png" alt="Good Earth Grains and Creamer" title="Good Earth"
+      width="550px" height="380px" id="earth">
+    </a>
+    <div class="text">
+      <h2>
+        Good Earth
+      </h2>
+      <p>
+        Web Design <br>
+        Front End Development <br>
+        January—April 2016 <br>
+        HTML, CSS, JavaScript <br>
+        <a href="https://github.com/amhewins/goodEarth" target="_blank"><img class="socialimg" src="images/GitHub-Mark.png" alt="GitHub Logo" title="GitHub"
+        width="30px" height="30px"></a>
+      </p>
+    </div> <!--text-->
+  </div> <!--goodearth-->
+  <div id="philau">
+    <a href="PhilaU/index.html" target="_blank">
+      <img src="images/philau.jpg" alt="Philadelphia University ORL Site" title="Philadelphia University ORL Site"
+      width="550px" height="380px" id="philau">
+    </a>
+    <div class="text">
+      <h2>
+        Philadelphia University Office of Residence Life
+      </h2>
+      <p>
+        Web Design and Development <br>
+        August—December 2016 <br>
+        HTML, CSS <br>
+        <a href="https://github.com/amhewins/philauResLife" target="_blank"><img class="socialimg" src="images/GitHub-Mark.png" alt="GitHub Logo" title="GitHub"
+        width="30px" height="30px"></a>
+      </p>
+    </div> <!--text-->
+  </div> <!--philau-->
+  <div id="stuckinlove">
+    <a href="Stuck In Love/index.html" target="_blank">
+      <img src="images/stuckinlove.jpg" alt="Stuck In Love Website" title="Stuck in Love Website"
+      width="550px" height="380px" id="stuckinlove">
+    </a>
+    <div class="text">
+      <h2>
+        Stuck In Love
+      </h2>
+      <p>
+        Web Design and Development <br>
+        August—December 2016 <br>
+        HTML, CSS <br>
+        <a href="https://github.com/amhewins/" target="_blank"><img class="socialimg" src="images/GitHub-Mark.png" alt="GitHub Logo" title="GitHub"
+        width="30px" height="30px"></a>
+      </p>
+    </div> <!--text-->
+  </div> <!--stuckinlove-->
+</div> <!--web-->

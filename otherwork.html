@@ -5,7 +5,6 @@
 
     <link rel="stylesheet" type="text/css" href="css/wstyle.css">
     <link rel="stylesheet" type="text/css" href="css/workresp.css">
-    <link rel="stylesheet" type="text/css" href="css/slider.css">
     <link rel="stylesheet" type="text/css" href="css/devSlider.css">
     <link rel="stylesheet" type="text/css" href="css/headfoot.css">
     <link href='https://fonts.googleapis.com/css?family=Asap|Raleway:400,800' rel='stylesheet' type='text/css'>
@@ -15,10 +14,10 @@
   <body>
     <div class="hero">
       <div class="overlay">
-        <p>Arcadia Hewins</p>
+        <p><a href="index.html">Arcadia Hewins</a></p>
         <nav>
           <ul>
-            <li><a href="mystory.html">ABOUT</a></li>
+            <li><a href="about.html">ABOUT</a></li>
             <li><a href="contact.html">CONTACT</a></li>
             <li><a href="dev.html">DEVELOPMENT</a></li>
             <li><a href="otherwork.html">OTHER WORK</a></li>
@@ -29,6 +28,7 @@
     <div id="header">
       <h1>Arcadia Hewins</h1>
     </div> <!--header-->
+
     <div class="content">
 
       <div id="web">
@@ -160,26 +160,139 @@
         <div id="graphics">
           <h2>Graphic Design</h2>
 
+          <div id="contentContainer3">
+            <div id="slidewrapper3">
+              <div id="itemFive" class="scontent">
+
+              </div> <!--itemOne-->
+              <div id="itemSix" class="scontent">
+
+              </div> <!--itemTwo-->
+              <div id="itemSeven" class="scontent">
+
+              </div> <!--itemThree-->
+              <div id="itemEight" class="scontent">
+
+              </div> <!--itemFour-->
+            </div> <!--slidewrapper3-->
+          </div> <!--contentContainer3-->
+
+          <div id="contentContainer4">
+            <div id="slidewrapper4">
+              <div id="itemOneText" class="scontent2">
+                <a href="https://books-amhewins.c9users.io/" target="_blank">
+                  <h1>Crisis Text Line</h1>
+                </a>
+                <p>
+                  Adobe Illustrator <br>
+                  Adobe InDesign <br>
+                  Summer 2016 <br>
+                  Philadelphia University Counseling Services <br>
+                </p>
+              </div> <!--itemOneText-->
+              <div id="itemTwoText" class="scontent2">
+                <h1>Sex Degrees of Separation</h1>
+                <p>
+                  Adobe Illustrator <br>
+                  Adobe InDesign <br>
+                  Adobe Photoshop <br>
+                  Summer 2016 <br>
+                  Philadelphia University Health Services <br>
+                </p>
+              </div> <!--itemTwoText-->
+              <div id="itemThreeText" class="scontent2">
+                <h1>Residence Life Competition</h1>
+                <p>
+                  Adobe InDesign <br>
+                  Fall 2016 <br>
+                  Philadelphia University Office of Residence Life <br>
+                </p>
+              </div> <!--itemThreeText-->
+              <div id="itemFourText" class="scontent2">
+                <h1>Residence Life Recruitment</h1>
+                <p>
+                  Adobe InDesign <br>
+                  Fall 2016 <br>
+                  Philadelphia University Office of Residence Life <br>
+                </p>
+              </div> <!--itemFourText-->
+            </div> <!--slidewrapper4-->
+          </div> <!--contentContainer4-->
+          <div id="navLinks2">
+            <ul>
+              <li class="itemLinks2" data2-pos="0px" text2-pos="0px"></li>
+              <li class="itemLinks2" data2-pos="-550px" text2-pos="-550px"></li>
+              <li class="itemLinks2" data2-pos="-1100px" text2-pos="-1100px"></li>
+              <li class="itemLinks2" data2-pos="-1650px" text2-pos="-1650px"></li>
+                <a href="dev.html"><li id="viewall">View All</li></a>
+            </ul>
+          </div> <!--navLinks-->
+
+          <script>
+            // just querying the DOM...like a boss!
+            var links = document.querySelectorAll(".itemLinks2");
+            var wrapper3 = document.querySelector("#slidewrapper3");
+            var wrapper4 = document.querySelector("#slidewrapper4");
+
+            // the activeLink provides a pointer to the currently displayed item
+            var activeLink = 0;
+
+            // setup the event listeners
+            for (var i = 0; i < links.length; i++) {
+              var link = links[i];
+              link.addEventListener('click', setClickedItem, false);
+
+              // identify the item for the activeLink
+              link.itemID = i;
+            }
+
+            // set first item as active
+            links[activeLink].classList.add("active");
+
+            function setClickedItem(e) {
+              removeActiveLinks();
+
+              var clickedLink = e.target;
+              activeLink = clickedLink.itemID;
+
+              changePosition(clickedLink);
+            }
+
+            function removeActiveLinks() {
+              for (var i = 0; i < links.length; i++) {
+                  links[i].classList.remove("active");
+              }
+            }
+
+            // Handle changing the slider position as well as ensure
+            // the correct link is highlighted as being active
+            function changePosition(link) {
+              var position3 = link.getAttribute("data2-pos");
+              var position4 = link.getAttribute("text2-pos");
+
+              var translateValue3 = "translate3d(" + position3 + ", 0px, 0)";
+              var translateValue4 = "translate3d(" + position4 + ", 0px, 0)";
+              slidewrapper3.style.transform = translateValue3;
+              slidewrapper4.style.transform = translateValue4;
+              link.classList.add("active");
+            }
+          </script>
         </div> <!--graphics-->
-        <div id="resume">
-          <h2>Resume</h2>
-            <a href="images/Resume/hewinsResume-min.png" target="_blank"><img src="images/Resume/hewinsResume-min.png" height="700px" width="550px"></a>
-        </div> <!--resume-->
     </div> <!--content-->
     <footer>
         <ul class="footindex">
-          <li><a href="mystory.html">ABOUT</a></li>
+          <li><a href="about.html">ABOUT</a></li>
           <li><a href="contact.html">CONTACT</a></li>
           <li><a href="dev.html">DEVELOPMENT</a></li>
           <li><a href="otherwork.html">OTHER WORK</a></li>
         </ul>
         <ul class="social">
           <li>
-            <a href="https://github.com/amhewins" target="_blank"><img src="images/github.png" alt="GitHub Logo" title="GitHub"
+            <a href="https://github.com/amhewins" target="_blank"><img class="socialimg" src="images/github.png" alt="GitHub Logo" title="GitHub"
             width="30px" height="30px"></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/arcadia-hewins-767227132/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn Logo" title="LinkedIn"
+            <a href="https://www.linkedin.com/in/arcadia-hewins-767227132/" target="_blank"><img class="socialimg" src="images/linkedin.png" alt="LinkedIn Logo" title="LinkedIn"
             width="30px" height="30px"></a>
           </li>
         </ul> <!--social-->

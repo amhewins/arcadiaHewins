@@ -1,0 +1,80 @@
+body {
+  margin: 0px;
+  background-color: #f2f1db;
+}
+.hero {
+  background-image: url('../images/yellowstone/IMG_2447b-min.jpg');
+  background-size: cover;
+  height: 450px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.hero .overlay {
+  position: absolute;
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+  color: #fff;
+  padding-left: 5px;
+}
+.hero .overlay p {
+  text-align: left;
+  color: white;
+  font-size: 350%;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 120px;
+  padding-left: 80px;
+  letter-spacing: 4px;
+  line-height: 1.8;
+}
+li {
+  list-style-type: none;
+}
+nav {
+  padding-left: 90px;
+  margin-top: -60px;
+  font-family: 'Raleway', sans-serif;
+}
+nav a.nav {
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+  overflow: visible;
+  background-color: none;
+}
+nav a.nav:hover {
+  color: #55A7B4;
+  /*color: #FF3364;*/
+  background-color: transparent;
+}
+nav ul li {
+  display: inline-block;
+}
+#header {
+  display: none;
+}
+
+footer {
+  background: #131820;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  clear: left;
+  text-align: center;
+}
+footer li {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+}
+footer a {
+  color: white;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial sans-serif;
+  text-decoration: none;
+  padding-left: 30px;
+}
+footer a:hover {
+  color: #55A7B4;
+}
+.social a:hover {
+  opacity: 0.3;
+}
