@@ -5,6 +5,10 @@ html, div, .category, span, h1, h2, h3, h4, h5, h6, p, em, img, small, strong {
 	font: inherit;
 	vertical-align: baseline;
 }
+h3, p, small {
+	padding-left: 5%;
+	padding-right: 5%;
+}
 a {
   color: #b9b8a4;
   text-decoration: none;
