@@ -103,6 +103,9 @@ img {
 	max-width: 100%;
 	width: 800px;
 	height: 250px;
+	object-fit: contain;
+}
+.photog img {
 	object-fit: cover;
 }
 .entry {
