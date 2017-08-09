@@ -9,13 +9,11 @@ body {
   background-repeat: no-repeat;
 }
 .overlay {
-
   margin-top: 0;
   width: 100%;
   height: 100%;
   background: rgba(0,0,0,0.5);
   color: #fff;
-  padding-left: ;
 }
 .hero .overlay p {
   text-align: left;
@@ -25,6 +23,7 @@ body {
   padding-left: 80px;
   letter-spacing: 4px;
   line-height: 1.8;
+  margin-top: 0px;
 }
 #logo img {
   margin-left: 33%;

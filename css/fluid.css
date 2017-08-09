@@ -5,6 +5,10 @@ html, div, .category, span, h1, h2, h3, h4, h5, h6, p, em, img, small, strong {
 	font: inherit;
 	vertical-align: baseline;
 }
+.tabs ul li {
+  display: inline;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial sans-serif;
+}
 h3, p, small {
 	padding-left: 5%;
 	padding-right: 5%;
@@ -51,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Primary Styles */
 
 .category {
-	padding: 10px;
+	padding: 10px 0px 10px 10px;
 	font: .875em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial sans-serif;
 	font-weight: 300;
 	color: #515047;
@@ -65,7 +69,7 @@ a.blocks, a.blocks:link, a.blocks:visited, a.blocks:active, .title, .category {
 	float: left;
 	width: 100%;
 	height: auto;
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 	text-decoration: none;
 }
 h1, h2, h3 {
@@ -115,17 +119,21 @@ img {
 }
 footer p {
 	font: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial sans-serif;
+	font-size: 80%;
 }
 .socialimg {
 	height: 30px;
 	width: 30px;
+}
+.tabs {
+	display: none;
 }
 
 /* Media Queries */
 
 /* Column Control Media Queries */
 
-@media screen and (min-width:500px) {
+@media only screen and (max-width:500px) {
 	#category {
 		max-width: 1600px;
 		margin: 0 auto;
@@ -148,68 +156,218 @@ footer p {
 	div, h2 {
 		position: absolute;
 	}
-	div.babypics {
-		position: relative;
+}
+
+/* Four Column org max-width:1200px */
+
+@media only screen and (max-width:2400px) {
+	.title, #category, a.blocks, a.blocks:link, a.blocks:visited, a.blocks:hover, a.blocks:active {
+		width: 23%;
+		margin: 20px 2% 0 0;
+		/* padding-bottom: 23%; */
 	}
 }
 
-/* Two Column */
+@media only screen and (max-width:1800px) {
+	.title, #category, a.blocks, a.blocks:link, a.blocks:visited, a.blocks:hover, a.blocks:active {
+		width: 23%;
+		margin: 20px 2% 20px 0;
+		/* padding-bottom: 23%; */
+	}
+}
 
-@media screen and (min-width:500px) {
-	a.blocks, a.blocks:link, a.blocks:visited, a.blocks:hover, a.blocks:active, .title, .category {
-		/* width: 47%;*/
-		margin: 0 3% 2 0;
-		/*padding-bottom: 47%;*/
+@media only screen and (max-width:1500px) {
+	.title, #category, a.blocks, a.blocks:link, a.blocks:visited, a.blocks:hover, a.blocks:active {
+		width: 23%;
+		margin: 20px 2% 20px 0;
+		/* padding-bottom: 23%; */
+	}
+}
+
+@media only screen and (max-width:1200px) {
+	.title, #category, a.blocks, a.blocks:link, a.blocks:visited, a.blocks:hover, a.blocks:active {
+		width: 23%;
+		margin: 20px 2% 20px 0;
+		/* padding-bottom: 10%; */
+	}
+}
+
+@media only screen and (max-width:1000px) {
+	.title, #category, a.blocks, a.blocks:link, a.blocks:visited, a.blocks:hover, a.blocks:active {
+		width: 23%;
+		margin: 5px 0 20px 0;
+		/* padding-bottom: 13%; */
 	}
 }
 
 /* Three Column */
 
-@media screen and (min-width:800px) {
+@media only screen and (max-width:800px) {
 	.title, #category, a.blocks, a.blocks:link, a.blocks:visited, a.blocks:hover, a.blocks:active {
 		width: 31%;
-		margin: 0 2% 20px 0;
-		padding-bottom: 31%;
+		margin: 0 2% 15px 0;
+		padding-bottom: 5%;
 	}
 }
 
-/* Four Column */
+/* Two Column */
 
-@media screen and (min-width:1200px) {
-	.title, #category, a.blocks, a.blocks:link, a.blocks:visited, a.blocks:hover, a.blocks:active {
-		width: 23%;
-		margin: 20px 2% 0 0;
-		padding-bottom: 23%;
+@media only screen and (max-width:600px) {
+	a.blocks, a.blocks:link, a.blocks:visited, a.blocks:hover, a.blocks:active, .title, .category {
+		width: 100%;
+		margin: 0 3% 2 0;
+		padding-bottom: 5%;
+	}
+	.nav {
+		display: none;
+	}
+	.tabs {
+		display: inline-block;
+		margin-top: 0;
+		width: 100%;
+	}
+	.tabs ul li {
+		padding-right: 2%;
+	}
+	.hero {
+		height: 155px;
+		background-size: 100%;
+	}
+	.hero .overlay p {
+		padding-top: 2%;
+		font-size: 200%;
+		margin-left: 15%;
+		margin-bottom: 0;
+	}
+	.hamburgermenu {
+		display: block;
 	}
 }
+
+@media only screen and (max-width:500px) {
+	a.blocks, a.blocks:link, a.blocks:visited, a.blocks:hover, a.blocks:active, .title, .category {
+		width: 100%;
+		margin: 0 3% 2 0;
+		padding-bottom: 38%;
+	}
+	.nav {
+		display: none;
+	}
+	.tabs {
+		display: inline-block;
+		margin-top: -20px;
+		width: 100%;
+	}
+	.tabs ul li {
+		padding-right: 2%;
+	}
+	.hero {
+		height: 100px;
+		background-size: 100%;
+	}
+	.hero .overlay p {
+		padding-top: 2%;
+		font-size: 200%;
+		margin-left: 5%;
+		margin-bottom: 0;
+	}
+}
+
+/* Mobile Views */
+
+@media only screen and (max-width:425px) {
+	a.blocks, a.blocks:link, a.blocks:visited, a.blocks:hover, a.blocks:active, .title, .category {
+		width: 100%;
+		margin: 0 3% 2 0;
+		/* top, right, bottom, left */
+		padding-bottom: 47%;
+	}
+	.nav {
+		display: none;
+	}
+	.tabs {
+		display: inline-block;
+		margin-top: -20px;
+		margin-left: -10px;
+		width: 100%;
+	}
+	.tabs ul li {
+		padding-right: 2%;
+	}
+	.hero {
+		height: 100px;
+		background-size: 100%;
+	}
+	.hero .overlay p {
+		padding-top: 2%;
+		font-size: 200%;
+		margin-left: 5%;
+		margin-bottom: 0;
+	}
+}
+
+/* One Column */
+
+/*@media only screen and (max-width:325px) {
+	a.blocks, a.blocks:link, a.blocks:visited, a.blocks:hover, a.blocks:active, .title, .category {
+		width: 50%;
+		margin: 0 4% 2 0;
+		padding-bottom: 50%;
+	}
+} */
 
 /* Font Size Control Media Queries */
 
-@media screen and (min-width:500px) {
-	h1, h2, h3 { font-size: 2em; }
-	p { font-size: 1em; line-height: 1.2; }
+@media only screen and (max-width:2400px) {
+	h1, h2, h3 { font-size: 5.25em; }
+	p { font-size: 2.5em; }
 }
-@media screen and (min-width:600px) {
-	h1, h2, h3 { font-size: 2.5em; }
+@media only screen and (max-width:2000px) {
+	h1, h2, h3 { font-size: 4em; }
+	p { font-size: 2em; }
 }
-@media screen and (min-width:700px) {
-	h1, h2, h3 { font-size: 3em; }
+@media only screen and (max-width:1800px) {
+	h1, h2, h3 { font-size: 3.75em; }
+	p { font-size: 1.75em; }
+}
+@media only screen and (max-width:1600px) {
+	h1, h2, h3 { font-size: 3.5em; }
+	p { font-size: 1.5em; }
+}
+@media only screen and (max-width:1400px) {
 	p { font-size: 1.25em; }
 }
-@media screen and (min-width:800px) {
-	h1, h2, h3 { font-size: 2.5em; }
+@media only screen and (max-width:1200px) {
 	p { font-size: 1em; }
 }
-@media screen and (min-width:1000px) {
+@media only screen and (max-width:1000px) {
 	h1, h2, h3 { font-size: 3.25em; }
 	p { font-size: 1.25em; }
 }
-@media screen and (min-width:1200px) {
+@media only screen and (max-width:800px) {
+	h1, h2, h3 { font-size: 2.5em; }
 	p { font-size: 1em; }
 }
-@media screen and (min-width:1400px) {
+@media only screen and (max-width:700px) {
+	h1, h2, h3 { font-size: 3em; }
 	p { font-size: 1.25em; }
 }
-@media screen and (min-width:1600px) {
-	h1, h2, h3 { font-size: 4em; }
+@media only screen and (max-width:600px) {
+	h1, h2, h3 { font-size: 2em; }
+	p, .tabs { font-size: 1.75em; }
+}
+@media only screen and (max-width:550px) {
+	h1, h2, h3 { font-size: 1.75em; }
+	p, .tabs { font-size: 1.50em; }
+}
+@media only screen and (max-width:500px) {
+	h1, h2, h3 { font-size: 2em; }
+	p, .tabs { font-size: 1.25em; line-height: 1.2; }
+}
+@media only screen and (max-width:425px) {
+	h1, h2, h3 { font-size: 2em; }
+	p, .tabs { font-size: 1.25em; line-height: 1.2; }
+	.hero .overlay p {
+		font-size: 130%;
+	}
 }
